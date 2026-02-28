@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="surface_m">Surface (m²)</string>
+    <string name="nombre_de_pi_ces">Nombre de pièces</string>
+    <string name="piscine">Piscine</string>
+    <string name="calculer">Calculer</string>
+</resources>

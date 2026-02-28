@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/input_surface"
+        android:hint="@string/surface_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/input_pieces"
+        android:hint="@string/nombre_de_pi_ces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/piscine" />
+
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculer" />
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
